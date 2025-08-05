@@ -1,0 +1,72 @@
+.loginBox {
+  display: flex;
+  border-radius: 25px;
+  border: 5px solid black;
+  flex-direction: column;
+  background: rgb(163, 208, 219);
+  background: linear-gradient(
+    227deg,
+    rgb(43, 81, 90) 0%,
+    rgb(166, 170, 183) 20%,
+    rgb(83, 107, 214) 34%,
+    rgba(163, 219, 208, 1) 59%,
+    rgb(145, 159, 162) 74%,
+    rgb(9, 187, 231) 100%
+  );
+}
+
+.logo {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  padding-bottom: 50px;
+}
+
+.titleLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.registerFields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.registerFields input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.registerButton {
+  background-color: #4CAF50; /* Green */
+  border: 2px solid black;
+  color: rgb(1, 0, 0);
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+

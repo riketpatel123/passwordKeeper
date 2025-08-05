@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=SSource+Sans+Pro:wght@400;700&display=swap");
+body,
+html {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+
+.passwordContainer {
+  overflow-y: auto;
+  height: 100vh;
+}
